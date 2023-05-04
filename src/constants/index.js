@@ -4,7 +4,6 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -13,16 +12,22 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    bootstrap,
+    php,
+    laravel,
+    mysql,
+    ecommerce,
+    portfolio,
+    ecommerceadmin,
+    memory,
+    doctors,
+    nextJs,
+    ecomnext,
+    furniture,
 } from "../assets";
 
 export const navLinks = [
@@ -31,7 +36,7 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "work",
+        id: "project",
         title: "Work",
     },
     {
@@ -46,7 +51,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Frontend Developer",
         icon: mobile,
     },
     {
@@ -54,7 +59,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "AutoCAD Designer",
         icon: creator,
     },
 ];
@@ -69,12 +74,16 @@ const technologies = [
         icon: css,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
+        name: "Tailwind CSS",
+        icon: tailwind,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+        name: "Bootstrap",
+        icon: bootstrap,
+    },
+    {
+        name: "JavaScript",
+        icon: javascript,
     },
     {
         name: "React JS",
@@ -85,8 +94,8 @@ const technologies = [
         icon: redux,
     },
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
+        name: "Next Js",
+        icon: nextJs,
     },
     {
         name: "Node JS",
@@ -97,21 +106,21 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "mysql",
+        icon: mysql,
     },
     {
-        name: "git",
-        icon: git,
+        name: "PHP",
+        icon: php,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "Laravel",
+        icon: laravel,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
+    // {
+    //     name: "git",
+    //     icon: git,
+    // },
 ];
 
 const experiences = [
@@ -198,67 +207,146 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Portfolio Website",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "My personal portfolio website, where I used 3D visuals with react-three.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "react-three",
                 color: "green-text-gradient",
+            },
+            {
+                name: "react-tilt",
+                color: "orange-text-gradient",
             },
             {
                 name: "tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: portfolio,
+        source_code_link: "https://github.com/MDMinhazulIslamKhan/portfolio-react",
     },
     {
-        name: "Job IT",
+        name: "E-commerce Next.js",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "An e-commerce website, where all customer can add products on his cart without login and order products, see his pending order and previous order after login. Admin has the access to see all user, user pending order, delivered order and approved the pending order.",
+        tags: [
+            {
+                name: "nextJs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "express",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "daisyui",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: ecomnext,
+        source_code_link: "https://github.com/MDMinhazulIslamKhan/e-com-admin-task",
+    },
+    {
+        name: "Doctors Portal",
+        description:
+            "A medical service booking platform that allows you choose the doctor of your need.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "express",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "mongodb",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "daisyui",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: doctors,
+        source_code_link: "https://github.com/MDMinhazulIslamKhan/doctors-portal",
     },
     {
-        name: "Trip Guide",
+        name: "E-commerce Laravel ",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "An e-commerce website where you can order your favorite product and received product by cash on delivery",
         tags: [
             {
-                name: "nextjs",
+                name: "blade",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "laravel",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "bootstrap",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: ecommerce,
+        source_code_link: "https://github.com/MDMinhazulIslamKhan/e_commarce_laravel",
+    },
+    {
+        name: "Sharing Memory",
+        description:
+            "Create a memory sharing website, where you can share your memory with other and like on others memory and edit and delete your own memory.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "redux",
+                color: "green-text-gradient",
+            },
+            {
+                name: "express",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "daisyui",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: memory,
+        source_code_link: "https://github.com/MDMinhazulIslamKhan/memory-porject-client",
+    },
+    {
+        name: "Ecommerce Admin",
+        description:
+            "E-commerce website admin page from where admin can add category add products by category. Ordered products can be approved for delivery from this page. Only selected people can access this page.",
+        tags: [
+            {
+                name: "laratrust",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "laravel",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mysql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: ecommerceadmin,
+        source_code_link: "https://github.com/MDMinhazulIslamKhan/e_commarce_laravel",
     },
 ];
 
