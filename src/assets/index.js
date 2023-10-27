@@ -19,9 +19,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import php from "./tech/php.png";
-import mysql from "./tech/mysql.png";
 import laravel from "./tech/laravel.png";
 import nextJs from "./tech/nextjs.png";
+import typescript from "./tech/typescript.png";
+import postgre from "./tech/postgre.png";
+import prisma from "./tech/prisma.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -36,16 +38,20 @@ import phone from "./Social/phone.png";
 import cv from "./Social/cv.png";
 import cvPdf from "./Social/cv.pdf";
 
-import ecommerceadmin from "./ecommerceadmin.png";
-import portfolio from "./portfolio.png";
-import ecommerce from "./ecommerce.png";
-import memory from "./memory.png";
-import doctors from "./doctors.png";
-import ecomnext from "./ecom-next.png";
-import furniture from "./farniturenext.png";
+import ecommerceadmin from "./ecommerceadmin.jpg";
+import portfolio from "./portfolio.jpg";
+import ecommerce from "./ecommerce.jpg";
+import memory from "./memory.jpg";
+import doctors from "./doctors.jpg";
+import ecomnext from "./ecom-next.jpg";
+import furniture from "./farniturenext.jpg";
+import tutor from "./tutor.jpg";
+import pcbuild from "./pcbuild.jpg";
 
 export {
   facebook,
+  tutor,
+  pcbuild,
   github1,
   gmail,
   linkedin,
@@ -55,6 +61,9 @@ export {
   logo,
   backend,
   creator,
+  typescript,
+  postgre,
+  prisma,
   mobile,
   web,
   github,
@@ -63,7 +72,6 @@ export {
   css,
   bootstrap,
   php,
-  mysql,
   laravel,
   git,
   html,
@@ -85,5 +93,5 @@ export {
   memory,
   furniture,
   ecomnext,
-  nextJs
+  nextJs,
 };
